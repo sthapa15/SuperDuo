@@ -237,7 +237,7 @@ public class Utilities {
             URL fetch = new URL(uri.toString());
             m_connection = (HttpURLConnection) fetch.openConnection();
             m_connection.setRequestMethod("GET");
-            m_connection.addRequestProperty("X-Auth-Token", "ISERT API KEY HERE");
+            m_connection.addRequestProperty("X-Auth-Token", "INSERT API KEY HERE");
             m_connection.connect();
 
             // Read the input stream into a String
